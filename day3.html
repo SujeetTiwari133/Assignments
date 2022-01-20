@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>DAY3_Sujeet</title>
+        <style>
+            #table1 {
+                text-align: center;
+                width: 42%;
+                background-image: url('backmusic2.jpg');
+                background-repeat: no-repeat;
+                background-size: 100%;
+            }
+
+            body {
+                align-items: center;
+                display: flex;
+                flex-direction: column;
+                background-color: cornflowerblue;
+            }
+
+            div {
+                margin: 20px 10px;
+            }
+
+            input {
+                border-radius: 5px;
+
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <h1>Day3 Assignment</h1>
+
+        <table border="3px solid grey" id="table1">
+            <tr>
+                <th>VEG</th>
+                <th>PRICE</th>
+                <th>NON-VEG</th>
+                <th>PRICE</th>
+            </tr>
+            <tr>
+                <td>Roti</td>
+                <td>10/</td>
+                <td>Shorma</td>
+                <td>20/</td>
+            </tr>
+            <tr>
+                <td>Paratha</td>
+                <td>12/</td>
+                <td>Omlet</td>
+                <td>15/</td>
+            </tr>
+            <tr>
+                <td>Biryani</td>
+                <td>40/</td>
+                <td>Biryani</td>
+                <td>50/</td>
+            </tr>
+            <tr>
+                <td>Mater Paneer</td>
+                <td>100/</td>
+                <td>Chicken Tikka</td>
+                <td>120/</td>
+            </tr>
+            <tr>
+                <td>Saahi Paneer</td>
+                <td>120</td>
+                <td>Egg-Rice</td>
+                <td>50/</td>
+            </tr>
+            <tr>
+                <td>Naan</td>
+                <td>40/</td>
+                <td>Copta</td>
+                <td>100/</td>
+            </tr>
+        </table>
+        <div>
+            <form method="get" action="day4.html">
+                <input type="text" placeholder="YOUR NAME" required><br>
+                <label for="MENUS">WHAT YOU WANT TO ORDER</label>
+                <h3>SELECT FROM BELOW</h3>
+                <input type="checkbox" name="MENU" value="Roti"><label>Roti</label>
+                <br>
+                <input type="checkbox" name="MENU" value="EGG Rice"><label>EGG Egg-Rice</label>
+                <br>
+                <input type="checkbox" name="MENU" value="Mater Paneer"><label>Mater Paneer</label>
+                <br><br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+
+    </body>
+
+</html>
