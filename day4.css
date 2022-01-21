@@ -1,0 +1,64 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: cadetblue;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+a {
+    display: block;
+     padding: 14px 16px;
+    text-align: center;
+    color: whitesmoke;
+    text-decoration: none;
+}
+a:hover {
+    background-color: darkgray;
+    color: black;
+}
+.container {
+    margin: 76px;
+    padding: 0 30%;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    background-color: darkgoldenrod;
+}
+.form1 {
+    margin: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+#email {
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    border-radius: 5px;
+}
+#btn {
+    margin: 5px;
+    border-radius: 5px;
+    background-color: cornflowerblue;
+    color: black;
+
+}
+#btn:hover {
+    background-color: crimson;
+    color: black;
+}
+select {
+     margin: 10px;
+    padding: 10px;
+    background-color: cornflowerblue;
+    color: black;
+    text-align: center;
+}
+textarea {
+    background-color: darkgray;
+    color: black;
+}
